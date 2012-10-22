@@ -4,19 +4,19 @@ $(function(){
 	var amount;
 
 while(action != 'q'){
-	if (action == 'd')
-		{
+	if (action == 'd'){
 			amount = prompt('Amount?');
 			amount = parseInt(amount);
 			balance = balance + amount;
 			console.log('you deposited $'+ amount + ' and have a balance of $' + balance);
 		}	
-		else if (action == 'w'){
+	else if (action == 'w'){
 			amount = prompt('Amount?');
 			amount = parseInt(amount);
 			balance = balance - amount;
 			console.log('you deposited $'+ amount + ' and have a balance of $' + balance);
 		}
-		action = prompt('Deposit or Withdraw or Quit?');
+	action = prompt('Deposit or Withdraw or Quit?');
+	console.log('your balance is $'+balance);
 }
 });

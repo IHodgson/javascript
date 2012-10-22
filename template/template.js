@@ -1,3 +1,3 @@
 $(function(){
 
-});colors.push(co)
+});

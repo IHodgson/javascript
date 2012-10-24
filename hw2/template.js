@@ -60,6 +60,6 @@ function addboxes () {
 		var a = $('<span>');
 		a.addClass('box');
 		a.css('background-color',add[i]);
-		$('#boxes').prepend(a);
+		$('#boxes').append(a);
 	}
 }

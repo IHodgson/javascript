@@ -1,0 +1,88 @@
+header{
+	text-align: center;
+	font-size: 50px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #000;
+	margin-bottom: 20px;
+}
+
+.box{
+	border: 1px dashed #000;
+	margin: 5px;
+	float: left;
+	display: block;
+	width: 80px;
+	padding: 20px 20px;
+	text-align: center;
+	background: white;
+	border-radius: 10px;
+}
+
+.clear{
+	clear: both;
+}
+
+body {
+	font-size: 20px;
+	font-family: Helvetica, sans-serif;
+	background: #D6D6D6 url("http://myemma.com/static/global/img/bg-hatch.png") 50% 0;
+}
+
+
+#container{
+	
+	width: 960px;
+	padding: 20px 20px 20px 20px;
+	margin: 50px auto;
+	border: 5px solid #333;
+	border-radius: 10px;
+	background-color: #eaebeb;
+}
+span{
+	float: left;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+#input{
+	float: left;
+	font-size: 20px;	
+	width: 250px;
+	padding: 20px 20px;
+	border: 1px solid #333;
+	border-radius: 10px;
+	background-color: white;
+	margin: 10px 40px;
+}
+#output{
+	vertical-align: middle;
+	float: left;
+	width: 250px;
+	min-height: 25px;
+	padding: 20px 20px;
+	border: 1px solid #333;
+	border-radius: 10px;
+	background-color: white;
+	margin: 10px 40px;
+}
+
+
+
+
+/**** hover classes ****/
+
+
+.big_hover{
+	color: green;
+	font-size: 24px;
+}
+
+.small_hover{
+	color: red;
+	font-size: 8px;
+}
+
+.blue_italic{
+	color: blue;
+	font-style: italic;
+}

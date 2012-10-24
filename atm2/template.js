@@ -52,13 +52,3 @@ function dep2 () {
 	$('#bal2').text('$' + bal2);
 	max = bal1 + bal2;
 }
-
-function balance (x) {
-	if (x>=0)
-		{
-			$('#bal1').css('background','white').css('color', 'black');
-		}
-		else {
-			$('#bal1').css('background','red').css('color', 'white');
-		}
-}

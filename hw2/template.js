@@ -4,7 +4,7 @@ $(function(){
 	$('#addcolors').click(addboxes);
 	$('#boxes').on('hover','.box',hover);
 	$('#boxes').on('click','.box',select);
-	$('#boxes').on('click','.border',deselect);
+	// $('#boxes').on('click','.border',deselect);
 	$('#boxes').on('dblclick','.box',remove);
 	$('#back').click(moveback);
 	$('#fwd').click(movefwd);
@@ -16,38 +16,34 @@ function remove () {
 }
 
 function moveback () {
-	var x = selected.prev();
+	var x = $(selected).prev();
 	x.before(selected);
 	}
 
 function movefwd () {
-	var x = selected.next();
+	var x = $(selected).next();
 	x.after(selected);
 	}
 
 
 function select() {
-	if (selected==null) {
-		$(this).addClass('border');
-		// $(this).css('color','yellow');
-		selected = $(this);
-		console.log('case 1');
-	}
-
-	else if ( $(this) != selected ) {
-		// $('.box').css('color','');
+	if ( this != selected ) {
 		$('.box').removeClass('border');
 		$(this).addClass('border');
-		// $(this).css('color','yellow');
-		selected = $(this);
+		selected = this;
+		console.log('case 1');
+	}
+	else if ( this == selected ) {
+		$('.box').removeClass('border');
+		selected = null;
 		console.log('case 2');
 	};
 }
 
-function deselect () {
-	$('.box').removeClass('border');
-	selected=null;
-}
+// function deselect () {
+// 	$('.box').removeClass('border');
+// 	selected=null;
+// }
 
 function hover () {
 	$('#input').css('background-color',$(this).css('background-color'));

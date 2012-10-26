@@ -1,0 +1,47 @@
+body{
+	background: #252525;
+}
+#container{
+	text-align: center;
+	padding: 20px;
+	width: 650px;
+	min-height: 500px;	
+	margin: auto;
+	background: #ccc;
+}
+
+header{
+	font-size: 60px;
+}
+
+
+.box{
+	width: 50px;
+	height: 80px;
+	margin: 15px;
+	padding:20px;
+	float: left;
+	background: #fff;
+	border: 1px dashed #000;
+	color:gray;
+}
+
+.matched{
+	background: yellow;
+	color: #000;
+	font-size: 30px;
+}
+
+.selected{
+	border: 1px solid #000;
+	color: #000;
+	background: 
+}
+
+.win{
+	background: red;
+}
+
+.clear{
+	clear: both;
+}

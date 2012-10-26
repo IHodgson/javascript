@@ -1,0 +1,37 @@
+.container_12 {
+	margin: 20px;
+}
+
+#container {
+	margin: auto;
+}
+
+#flickr_photos_container, #stored_photos_container {
+	display: block;
+	float: left;
+	/*width: 400px;*/
+}
+
+.flickr_photo, .stored_photo {
+	display: inline;
+	float: left;
+	margin: 5px;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+}
+
+.note_box {
+	display: inline-block;
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin: 5px;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 48px;
+}

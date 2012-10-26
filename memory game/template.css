@@ -3,8 +3,7 @@ body{
 }
 #container{
 	text-align: center;
-	padding: 20px;
-	width: 650px;
+	width: 800px;
 	min-height: 500px;	
 	margin: auto;
 	background: #ccc;
@@ -16,13 +15,13 @@ header{
 
 
 .box{
-	width: 50px;
-	height: 80px;
+	width: 102px;
+	height: 82px;
 	margin: 15px;
-	padding:20px;
+	padding: 20px;
 	float: left;
 	background: #fff;
-	border: 1px dashed #000;
+	border: 4px dashed #000;
 	color:gray;
 }
 
@@ -33,8 +32,10 @@ header{
 }
 
 .selected{
-	border: 1px solid #000;
+	border: 5px solid red;
 	color: #000;
+	height: 80px;
+	width:100px;
 	background: 
 }
 
